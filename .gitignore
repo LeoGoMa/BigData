@@ -39,3 +39,11 @@ Desktop.ini
 # ---- Editores ----
 .idea/
 *.swp
+
+# ---- Datasets grandes (superan el limite de GitHub) ----
+Examen_A/data/raw/*.csv
+Examen_A/data/processed/
+
+# ---- Examen A: a GitHub solo van notebooks/ y data/raw/ ----
+Examen_A/scripts/
+Examen_A/requirements.txt
